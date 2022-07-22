@@ -5,7 +5,8 @@
             Quero fazer o login (autenticação) na plataforma
             Para visualizar meus pedidos
 
-            Contexto: Dado que eu acesse a pagina de autenticação da EBAC-SHOP
+            Contexto: 
+            Dado que eu acesse a pagina de autenticação da EBAC-SHOP
 
             Cenário: Login na plataforma válida
             Quando eu digitar o usuario "ana@ebacshop.com.br"
