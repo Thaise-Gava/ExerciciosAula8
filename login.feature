@@ -3,7 +3,7 @@
             Funcionalidade:[US-002] Login na Paltaforma
             Como cliente da EBAC-SHOP
             Quero fazer o login (autenticação) na plataforma
-            Para visualizar meus pedidos
+            Para visualizar meus pedidos.
 
             Contexto: 
             Dado que eu acesse a pagina de autenticação da EBAC-SHOP
