@@ -8,14 +8,15 @@
             Contexto:
             Dado que eu acesse a tela de cadastro da EBAC-SHOP
 
-            Cenário: Cadastro de dados obrigatório nos campos marcados com asteriscos
+            Cenário: Cadastro de dados obrigatórios nos campos marcados com asteriscos
 
             | nome  | sobrenome | pais   | endereço          | cidade    | cep        | telefone        | e-mail                |
             | Alana | Souza     | Brasil | Rua João Fatori   | São Paulo | 15.834-000 | (11) 99874-5544 | alana@ebacshop.com.br |
             | joão  | Sampaio   | Brasil | Rua josé de Padua | Sergipe   | 28.900-150 | (79) 99596-8066 | joao@ebacshop.com.br  |
             | Joana | Rosa      | Brasil | Rua Arlindo Costa | Barueri   | 17.900-300 | (11) 99875-2100 | joana@ebacshop.com.br |
 
-            E clicar no botão "Finalizar Compra"
+            Quando eu preencher todos os campos marcados com asteristicos
+            E clicar no botão "Finalizar Cadastro"
             Então vai exibir uma mensagem de alerta "cadastro realizado com sucesso"
 
             Cenário: Campo e-mail com formato inválido 
